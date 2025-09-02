@@ -1,6 +1,6 @@
 # LeetCode Blog Series 📝
 
-A comprehensive collection of LeetCode problem solutions with detailed blog posts ready for Medium publication.
+A comprehensive bilingual (English/Chinese) collection of LeetCode problem solutions with detailed blog posts ready for Medium publication.
 
 ## 🎯 Purpose
 
@@ -17,10 +17,11 @@ Generate high-quality technical blog posts for LeetCode problems with:
 leetcode-blog-series/
 ├── problems/           # All problems organized by number
 │   └── 001_two_sum/   # Example problem folder
-│       ├── blog.md    # Ready-to-publish blog post
+│       ├── blog.md    # Ready-to-publish blog post (English)
+│       ├── blog_cn.md # Ready-to-publish blog post (Chinese)
 │       ├── solution.py # Python solutions with tests
 │       └── diagrams.md # Mermaid visualizations
-├── templates/         # Blog post template
+├── templates/         # Blog post templates
 └── schedules/         # Problem roadmap
 ```
 
@@ -28,8 +29,11 @@ leetcode-blog-series/
 
 ### Example: Two Sum (Problem #1)
 ```bash
-# View the blog post
+# View the English blog post
 cat problems/001_two_sum/blog.md
+
+# View the Chinese blog post
+cat problems/001_two_sum/blog_cn.md
 
 # Run the solution
 python3 problems/001_two_sum/solution.py
@@ -41,10 +45,15 @@ open problems/001_two_sum/diagrams.md
 ## 📝 Blog Publishing Guide
 
 ### For Medium
+**English:**
 1. Copy content from `problems/XXX/blog.md`
 2. For diagrams: Use [mermaid.live](https://mermaid.live) to export as images
 3. Add tags: `#LeetCode #Algorithms #Python #Programming #TechnicalInterview`
-4. Publish!
+
+**Chinese:**
+1. Copy content from `problems/XXX/blog_cn.md` 
+2. Publish on Chinese platforms like CSDN, 知乎 (Zhihu), or 掘金 (Juejin)
+3. Add Chinese tags: `#LeetCode #算法 #Python #编程 #技术面试`
 
 ### For Dev.to
 - Supports Mermaid natively - paste diagram code directly from `diagrams.md`
@@ -70,7 +79,8 @@ See `schedules/` for the complete 500-problem roadmap.
 
 Every problem folder contains:
 
-1. **blog.md** - Complete blog post (2000-3000 words)
+1. **blog.md** - Complete English blog post (2000-3000 words)
+2. **blog_cn.md** - Complete Chinese blog post (2000-3000 words)
    - Problem explanation
    - Multiple solutions (brute force → optimal)
    - Complexity analysis
@@ -78,13 +88,13 @@ Every problem folder contains:
    - Interview tips
    - Related problems
 
-2. **solution.py** - Working Python code
+3. **solution.py** - Working Python code
    - Multiple approaches
    - Test cases
    - Performance comparison
    - Mock interview simulation
 
-3. **diagrams.md** - Visual explanations
+4. **diagrams.md** - Visual explanations
    - Algorithm flowcharts
    - Complexity comparisons
    - Step-by-step traces
